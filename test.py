@@ -3,6 +3,7 @@ v = 10
 print(a+v)
 
 import requests
+import pprint from pprint
 
 def test_first():
     url = 'https://send-request.me/api/users'
@@ -12,4 +13,4 @@ def test_first():
         'company_id': 1
     }
     response = requests.post(url, json = data)
-    print (response.json())
+    pprint (response.json())
