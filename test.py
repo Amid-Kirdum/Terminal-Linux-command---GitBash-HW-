@@ -1,5 +1,6 @@
 a = 5
 v = 10
+
 print(a+v)
 
 import requests
@@ -14,3 +15,5 @@ def test_first():
     }
     response = requests.post(url, json = data)
     pprint (response.json())
+
+print(a+v)
