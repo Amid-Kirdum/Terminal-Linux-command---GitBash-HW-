@@ -1,2 +1,1 @@
-# qwerty
-Study
+Terminal Linux (GitBash) command
